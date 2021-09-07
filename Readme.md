@@ -1,3 +1,3 @@
 **Nikko Open Website** 
-[x] Free
-[x] Open Source
+[ ] Free
+[ ] Open Source
