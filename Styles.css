@@ -1,3 +1,6 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
 *{ 
  
@@ -27,8 +30,8 @@
     background:url(https://telegra.ph/file/82d1710c901990e1235ef.png); 
     background-size: cover; 
     border-radius:50%; 
-    
-    
+    animation: rotate 10s linear 0s infinite; 
+    transform:rotate(-10deg); 
     box-shadow:inset 0px 0px 10px 2px  black; 
 } 
 @keyframes rotate { 
@@ -126,11 +129,16 @@ button a{
 } 
 .box-2{ 
     position: relative; 
-    flex-basis: 60%; 
+    flex-basis: 50%; 
     align-items: center; 
      
 } 
-
+.box-2 .astronaut{ 
+    width: 50%; 
+    Position:relative; 
+    Animation:animate 0.5s infinite linear; 
+    top:0px 
+     
 } 
 @keyframes animate{ 
   0%{ 
@@ -138,8 +146,8 @@ button a{
     left:0px 
   } 
     50%{ 
-        top:40px; 
-        left:20px; 
+        top:10px; 
+        left:10px; 
     } 
     100%{ 
       top:0px; 
@@ -197,4 +205,4 @@ button a{
          
     } 
      
-} 
+}
