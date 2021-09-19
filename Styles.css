@@ -27,11 +27,11 @@
     width: 40px; 
     cursor: pointer; 
     height:40px; 
-    background:url(https://telegra.ph/file/82d1710c901990e1235ef.png); 
+    background:url(https://telegra.ph/file/caed2324e5af9a13972b9.jpg); 
     background-size: cover; 
     border-radius:50%; 
     animation: rotate 10s linear 0s infinite; 
-    transform:rotate(-10deg); 
+     
     box-shadow:inset 0px 0px 10px 2px  black; 
 } 
 @keyframes rotate { 
