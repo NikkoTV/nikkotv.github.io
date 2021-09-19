@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
+*{ 
+ 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'poppins',sans-serif; 
+} 
+.container{ 
+    width: 100%; 
+    min-height: 100vh; 
+    padding: 1% 8% 0% 8%; 
+    overflow: hidden; 
+    background-image: url(https://telegra.ph/file/a319dc798948d9fb3bd26.jpg); 
+    background-size: cover; 
+    box-sizing: border-box ; 
+ 
+} 
+.navbar{ 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+} 
+.logo{ 
+    width: 40px; 
+    cursor: pointer; 
+    height:40px; 
+    background:url(https://telegra.ph/file/82d1710c901990e1235ef.png); 
+    background-size: cover; 
+    border-radius:50%; 
+    
+    
+    box-shadow:inset 0px 0px 10px 2px  black; 
+} 
+@keyframes rotate { 
+  from { 
+    background-position-x: 0; 
+  } 
+  to { 
+    background-position-x: 80px; 
+     
+  } 
+}  
+#name{ 
+    color: white; 
+    margin-left: 20px; 
+} 
+.menu-icon{ 
+    width: 40px; 
+    cursor: pointer; 
+    display: none; 
+     
+} 
+nav{ 
+    flex:1; 
+    text-align: right; 
+} 
+nav ul li{ 
+    list-style-type: none; 
+    display: inline-block; 
+    margin-right:30px; 
+} 
+nav ul li a{ 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    font-size: 20px; 
+} 
+nav ul li a:hover{ 
+    color: rgb(253, 7, 40); 
+     
+} 
+.row{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 100px 0px ; 
+ 
+} 
+.box-1{ 
+    flex-basis: 40%; 
+    position: relative; 
+    margin-left: 50px; 
+} 
+.box-1 h1{ 
+    font-size: 54px; 
+    color: #C9CCD5; 
+} 
+.box-1 h2{ 
+    font-size: 20px; 
+    font-weight: 700; 
+    margin: 10px 0 10px; 
+    Background:white; 
+    Mix-blend-mode:Screen; 
+    padding-left:10px; 
+     
+} 
+.box-1 p { 
+    font-size: 16px; 
+    color: white; 
+    margin: 30px 0px; 
+     
+} 
+.box-1 button{ 
+  width:150px; 
+  background-color:#FF177F; 
+  font-weight:999; 
+  color:white; 
+  border:none; 
+  outline:none; 
+  height:30px;
+   
+}
+button a{
+    text-decoration:none;
+    color:white;
+} 
+.box-1 button:hover { 
+  background-color:#17FFA7; 
+  color:black; 
+} 
+.line{ 
+    width: 10px; 
+    height: 80%; 
+    background-color: crimson; 
+    position: absolute; 
+    left: -40px; 
+} 
+.box-2{ 
+    position: relative; 
+    flex-basis: 60%; 
+    align-items: center; 
+     
+} 
+
+} 
+@keyframes animate{ 
+  0%{ 
+    top:0px; 
+    left:0px 
+  } 
+    50%{ 
+        top:40px; 
+        left:20px; 
+    } 
+    100%{ 
+      top:0px; 
+      left: 0px; 
+    } 
+} 
+@media only screen and (max-width:700px){ 
+    nav ul{ 
+        width: 100%; 
+        background: #222831; 
+        position: absolute; 
+        top: 50px; 
+        right: 0; 
+        z-index: 2; 
+        overflow: hidden; 
+        transition: 1s; 
+        text-align:center; 
+    } 
+     
+    nav ul li{ 
+        display: block ; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        width:100%; 
+        clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 0 100%, 21% 52%, 0 0); 
+        font-size:20px; 
+        font-weight: 999 ; 
+    } 
+    nav ul li:hover{ 
+      background-color:#393E46 ; 
+    } 
+    nav ul li a{ 
+        color: white; 
+         
+    } 
+     
+     
+    .menu-icon{ 
+        display: block; 
+    } 
+    .row{ 
+        flex-direction: column-reverse; 
+        margin: 0px; 
+    } 
+    .box-1 h1{ 
+        Font-size:40px; 
+    } 
+    .box-2{ 
+        flex-basis: 100%; 
+        margin-bottom: 50px; 
+    } 
+     
+    .astronaut{ 
+        width: 77%; 
+         
+    } 
+     
+} 
