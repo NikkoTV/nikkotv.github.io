@@ -206,3 +206,10 @@ button a{
     } 
      
 }
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 72, 0);
+  }
